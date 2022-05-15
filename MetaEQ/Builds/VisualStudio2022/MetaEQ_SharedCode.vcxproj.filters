@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="MetaEQ\Source">
+      <UniqueIdentifier>{EB7CA2F7-4B8D-DB67-86B1-CEEF53D72CD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MetaEQ">
+      <UniqueIdentifier>{4BB1CBDD-7C82-B4EC-5129-AAFE6EAA13E2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JUCE Library Code">
+      <UniqueIdentifier>{7ED5A90E-41AF-A1EF-659B-37CEEAB9BA61}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\PluginProcessor.cpp">
+      <Filter>MetaEQ\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PluginEditor.cpp">
+      <Filter>MetaEQ\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\PluginProcessor.h">
+      <Filter>MetaEQ\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PluginEditor.h">
+      <Filter>MetaEQ\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\JuceLibraryCode\JuceHeader.h">
+      <Filter>JUCE Library Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\JuceLibraryCode\JucePluginDefines.h">
+      <Filter>JUCE Library Code</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
